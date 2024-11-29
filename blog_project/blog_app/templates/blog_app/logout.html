@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>You have successfully logged out!</h2>
+        <p>We hope to see you again soon.</p>
+        <a href="{% url 'post_list' %}">Go back to the homepage</a>
+    </div>
+</body>
+</html>
